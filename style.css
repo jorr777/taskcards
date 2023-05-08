@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -15,16 +15,26 @@
 }
 
 
-.calod_gifs{
+.calod_gifs {
     width: 100%;
     height: 250px;
 }
-.gif{
-    width:100%;
+
+.gif {
+    width: 100%;
     height: 100%;
 }
 
-.btns{
-    width:200px;
+.btns {
+    width: 200px;
     padding: 10px 0;
+    background: #182533;
+    color: white;
+    border: none;
+    border: 1px solid #293e55;
+}
+
+.btns:hover {
+    transition: 0.2s all ease; 
+    padding: 13px 0;
 }

@@ -70,7 +70,10 @@ const startTheGame = () => {
         calodCards.appendChild(takedCard)
         img.style.display = 'none'
     }, 1000)
+    
 }
+
+
 
 const takeRandomCard = () => {
     img.style.display = 'block'
