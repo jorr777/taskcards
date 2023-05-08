@@ -57,11 +57,11 @@ const startTheGame = () => {
     setTimeout(() => {
         if (game.cards.length) {
             game.shuffle()
-            takedCard.innerHTML = 'cards are shuffled'
-            startBtn.innerHTML = 'shuffle cards'
+            takedCard.innerHTML = 'Cards are shuffled'
+            startBtn.innerHTML = 'Shuffle Cards'
         }else{
-            takedCard.innerHTML = 'cards are shuffled and created'
-            startBtn.innerHTML = 'shuffle cards'
+            takedCard.innerHTML = 'Cards are shuffled and created'
+            startBtn.innerHTML = 'Shuffle Cards'
             game.createCalod()
             game.shuffle()
         }
@@ -81,7 +81,7 @@ const takeRandomCard = () => {
     console.log(!(game.cards.length - 1));
     setTimeout(() => {
         if(!(game.cards.length - 1)){
-            startBtn.innerHTML = 'shuffle and Create Calod'
+            startBtn.innerHTML = 'Shuffle and Create Calod'
         }
         takedCardResult = game.deal_card()
         console.log(game.cards.length);
